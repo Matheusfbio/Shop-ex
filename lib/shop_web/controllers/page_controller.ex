@@ -2,6 +2,6 @@ defmodule ShopWeb.PageController do
   use ShopWeb, :controller
 
   def home(conn, _params) do
-    render(conn, :home)
+    render(conn, :home, layout: false)
   end
 end
